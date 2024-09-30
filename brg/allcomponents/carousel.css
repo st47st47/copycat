@@ -66,3 +66,27 @@
 .eachitem h6 {
     font-weight: lighter;
 }
+
+
+
+/*  */
+
+
+.carousel::-webkit-scrollbar {
+    width: 12px;
+    height: 12px;
+}
+
+.carousel::-webkit-scrollbar-track {
+    background: pink;
+    border-radius: 10px;
+}
+
+.carousel::-webkit-scrollbar-thumb {
+    background: darkorchid;
+    border-radius: 10px;
+}
+
+.carousel::-webkit-scrollbar-thumb:hover {
+    background: purple;
+}
