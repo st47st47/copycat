@@ -1,0 +1,54 @@
+.newsletter {
+    height: 40vh;
+    color: #508abd;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+
+.entermail {
+    display: flex;
+    justify-content: space-between;
+    padding: 0 2%;
+
+    width: 22%;
+    height: 15%;
+    background-color: white;
+    border: #508abd solid 1px;
+    border-radius: 10px;
+    transition: all 0.1s ease;
+}
+
+.entermail:hover {
+    border: #508abd solid 3px;
+}
+
+.entermail input {
+    width: 90%;
+    border: none;
+    outline: none;
+    color: #508abd;
+}
+
+.entermail input::placeholder {
+    color: #508abd;
+}
+
+.entermail button {
+    border: none;
+    background-color: transparent;
+    color: #508abd;
+    cursor: pointer;
+}
+
+/*  */
+
+
+.entermail input::placeholder {
+    transition: all 0.2s ease;
+}
+
+.entermail input:focus::placeholder {
+    font-size: 0;
+}

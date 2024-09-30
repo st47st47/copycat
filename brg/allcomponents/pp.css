@@ -1,0 +1,115 @@
+.mpreview {
+    background: linear-gradient(to top left, #ffd3e8, whitesmoke);
+    padding: 5vh;
+    width: 60vw;
+    height: 60vh;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    overflow: auto;
+
+}
+
+.mleft {
+    width: 50%;
+    height: 100%;
+
+    border-radius: 1%;
+    overflow: hidden;
+}
+
+.mright {
+    width: 40%;
+    height: 100%;
+    color: #508abd;
+}
+
+.mleft img {
+    width: 100%;
+    height: 100%;
+
+}
+
+.mright h1 {
+    font-size: 3em;
+    margin-top: 0;
+}
+
+.mbuttons {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.mbuttons button {
+    color: #508abd;
+    background-color: white;
+    width: 20%;
+    border-radius: 40%;
+    margin-right: 1%;
+    border: #508abd 1px solid;
+    cursor: pointer;
+    margin-top: 0px;
+}
+
+.mbuttons button:hover {
+    border: #508abd 2px solid
+}
+
+.mbuttons button:focus {
+    background-color: #508abd;
+    color: white;
+}
+
+.mcarter {
+    background-color: white;
+    border: 0.01rem solid black;
+    height: 50px;
+    font-size: medium;
+    width: 80%;
+    border-radius: 5px;
+    font-weight: lighter;
+    margin-top: 40px;
+    box-shadow: 2px 2px 4px rgba(0, 0, 0, 0.2);
+    cursor: pointer;
+
+    transition: transform 0.3s ease;
+}
+
+.mcarter:hover {
+    transform: translateY(-4%);
+    border: none;
+}
+
+.mquanititer {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background-color: white;
+    height: 50px;
+    width: 90%;
+    border-radius: 5px;
+    border: #508abd 1px solid;
+}
+
+
+
+
+
+.mright a {
+    color: #508abd;
+    text-underline-offset: 30%;
+    text-align: center;
+}
+
+/*  */
+
+#close {
+    border-radius: 50%;
+    color: gray;
+    width: 50px;
+    height: 50px;
+    border: white;
+    margin-left: 90%;
+    margin-top: 0;
+}
